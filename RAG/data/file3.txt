@@ -1,0 +1,114 @@
+CHUẨN ĐẦU RA VÀ CHƯƠNG TRÌNH KHUNG  ĐÀO TẠO
+
+TRÌNH ĐỘ THẠC SĨ
+Chuyên ngành: Lý luận và phương pháp dạy học bộ môn Tin học
+Mã số chuyên ngành: 8140111
+(Ban hành kèm theo Quyết định số 4764/ĐHSPHN, ngày 14 tháng 10 năm 2022  của Hiệu trưởng Trường Đại học Sư phạm Hà Nội)
+
+A. CHUẨN ĐẦU RA CHƯƠNG TRÌNH ĐÀO TẠO
+
+1. MỤC TIÊU
+
+Chương trình đào tạo thạc sĩ Lí luận và phương pháp dạy học bộ môn Tin học có các mục tiêu sau:
+
+Đào tạo thạc sĩ Lí luận và phương pháp dạy học bộ môn tin học chất lượng cao đáp ứng đầy đủ Khung chuẩn đầu ra của Trường Đại học Sư phạm Hà Nội về phẩm chất và năng lực của người học.
+Đáp ứng được vị trí, khả năng công tác và học tập nâng cao trình độ của người học sau khi tốt nghiệp, đó là:
+Có khả năng dạy học môn Tin học ở trường trung học cơ sở, trung học phổ thông, đáp ứng được yêu cầu của chương trình giáo dục phổ thông 2018 nói chung và chương trình môn Tin học 2018 nói riêng.
+Có khả năng dạy học môn Tin học ở trường cao đẳng và đại học.
+Có khả năng tiếp tục học tập và nghiên cứu chuyên môn ở trình độ tiến sĩ.
+2. CHUẨN ĐẦU RA VÀ YÊU CẦU CẦN ĐẠT
+
+2.1. Chuẩn đầu ra 1 (CĐR 1): Trung thực, trách nhiệm và tận tâm
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+2.1.1. Trung thực trong hoạt động học tập và thi cử, không gian lận trong các hoạt động kiểm tra đánh giá thường xuyên và cuối kì; trung thực và khách quan trong hoạt động nghiên cứu khoa học, không sao chép và đạo văn của người khác cũng như của chính mình trong công bố khoa học; không nguỵ tạo dữ liệu và kết quả trong quá trình thực nghiệm, trích dẫn đầy đủ đến các nghiên cứu liên quan.
+
+2.1.2. Có trách nhiệm trong việc thực hiện các nghĩa vụ học tập, đi học đầy đủ và đúng giờ, học bài và làm bài đầy đủ theo yêu cầu của giảng viên; thực hiện đầy đủ các hoạt động nghiên cứu khoa học dưới sự hướng dẫn của giảng viên.
+
+2.1.3. Chia sẻ kinh nghiệm, tài liệu học tập với bạn bè và những người xung quanh; sẵn sàng giúp đỡ người khác trong học tập cũng như trong đời sống.
+
+2.2. Chuẩn đầu ra 2 (CĐR2): Ý thức tự học, tự nghiên cứu suốt đời
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+2.2.1. Nhận thức được vai trò và ý nghĩa của tự học, tự nghiên cứu trong quá trình theo học chương trình đào tạo thạc sĩ trên cơ sở nhận biết được những yêu cầu cần đạt về ý thức và phương pháp học tập của người học được quy định trong chương trình đào tạo thạc sĩ.
+
+2.2.2. Thực hiện được việc tìm kiếm, lựa chọn những tri thức và phương pháp cần thiết để tự học, tự nghiên cứu phục vụ cho quá trình theo học chương trình đào tạo thạc sĩ.
+
+2.2.3. Ý thức được vai trò và ý nghĩa của tự học, tự nghiên cứu suốt đời đối với người học. Từ đó, thực hiện được việc tìm kiếm, lựa chọn những tri thức và phương pháp cần thiết để tự học, tự nghiên cứu suốt đời phục vụ cho cuộc sống hiện tại và tương lai của chính người học.
+
+2.3. Chuẩn đầu ra 3 (CĐR3): Năng lực lãnh đạo
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+2.3.1. Nhận biết được sự lãnh đạo là phụng sự xã hội một cách chính đáng và chuyên nghiệp.
+
+2.3.2. Huy động được các nguồn lực của cá nhân hay tổ chức nhằm thực hiện được công việc hay nhiệm vụ được giao trong quá trình theo học chương trình đào tạo thạc sĩ.
+
+2.3.3. Xây dựng và lựa chọn được hình thức làm việc nhóm với quy mô phù hợp với yêu cầu và nhiệm vụ trong quá trình theo học chương trình đào tạo thạc sĩ.
+
+2.4. Chuẩn đầu ra 4 (CĐR4): Năng lực giải quyết vấn đề và sáng tạo
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+2.4.1. Nhận biết, phát hiện được các vấn đề cần giải quyết và vận dụng học vấn Khoa học máy tính để lựa chọn, đề xuất được giải pháp, cách thức, quy trình giải quyết vấn đề.
+
+2.4.2. Sử dụng được các kiến thức, kĩ năng và công cụ phù hợp trong Khoa học máy tính để giải quyết vấn đề đặt ra.
+
+2.4.3. Đánh giá được giải pháp đề ra và khái quát hoá được cho vấn đề tương tự.
+
+2.5. Chuẩn đầu ra 5 (CĐR5): Năng lực thực hiện các tiêu chuẩn nghề nghiệp
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+2.5.1. Biết và phân tích được các tiêu chuẩn nghề nghiệp.
+
+2.5.2. Sử dụng được các công cụ của Công nghệ thông tin và truyền thông trong việc thực hiện các tiêu chuẩn nghề nghiệp; đọc hiểu được các tài liệu bằng tiếng Anh trong việc thực hiện các tiêu chuẩn nghề nghiệp.
+
+2.5.3. Hiểu và vận dụng được những tri thức Khoa học máy tính trong việc thực hiện các tiêu chuẩn nghề nghiệp. Từ đó hướng dẫn được người khác thực hiện các tiêu chuẩn nghề nghiệp.
+
+2.6. Chuẩn đầu ra 6 (CĐR6): Năng lực phát triển nghề nghiệp
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+2.6.1. Lập và triển khai được mục tiêu của cá nhân trong hoạt động học tập, bồi dưỡng và phát triển nghề nghiệp.
+
+2.6.2. Lựa chọn và sử dụng được các nguồn tài nguyên đa dạng (sách, báo, các phương tiện thông tin), các phương pháp, kĩ thuật phù hợp trong hoạt động học tập, bồi dưỡng và phát triển nghề nghiệp.
+
+2.6.3. Tự đánh giá và điều chỉnh được bản thân trong hoạt động học tập, bồi dưỡng và phát triển nghề nghiệp.
+
+2.7. Chuẩn đầu ra 7 (CĐR7): Năng lực thực hiện nghiên cứu Hệ thống thông tin
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+2.7.1. Tạo dựng được một nền tảng học vấn tin học/khoa học giáo dục tin học vững chắc ở mức độ bậc học thạc sĩ.
+
+2.7.2. Thực hiện được các nghiên cứu tin học/khoa học giáo dục tin học dưới sự hướng dẫn của giảng viên.
+
+2.7.3. Trình bày được các kết quả nghiên cứu tin học/khoa học giáo dục tin học một cách độc lập.
+
+2.8. Chuẩn đầu ra 8 (CĐR8): Năng lực sử dụng các tri thức Lí luận và phương pháp dạy học tin học vào thực tiễn
+
+Đáp ứng 03 yêu cầu cần đạt sau:
+
+  2.8.1. Vận dụng được các thành tố của Năng lực Tin học vào giải quyết các vấn đề thực tiễn.
+
+  2.8.2. Phân tích và giải thích được các nội dung trong chương trình môn Tin học phổ thông một cách chính xác và đúng bản chất. Có khả năng phát triển chương trình môn Tin học ở trường phổ thông bằng cách xác định được từng đơn vị kiến thức cốt lõi và yêu cầu cần đạt trong chương trình môn Tin học phổ thông.
+
+  2.8.3. Thực hiện được việc tìm kiếm, lựa chọn những tri thức và phương pháp cần thiết để dạy học hình thành và phát triển phẩm chất, năng lực của học sinh theo chương trình môn Tin học trong chương trình giáo dục phổ thông 2018.
+
+
+
+B. CHƯƠNG TRÌNH KHUNG ĐÀO TẠO TRÌNH ĐỘ THẠC SĨ
+
+CHUYÊN NGÀNH LÍ LUẬN VÀ PHƯƠNG PHÁP DẠY HỌC BỘ MÔN TIN HỌC
+
+(Theo định hướng nghiên cứu)
+
+    Mã số chuyên ngành: 8140111
+    Tổng số tín chỉ phải tích luỹ: 60 tín chỉ
+    Khối học vấn chung: 09 tín chỉ (Bắt buộc: 03 tín chỉ; Tự chọn: 06/12 tín chỉ)
+    Khối học vấn cơ sở ngành: 30 tín chỉ
+    Khối học vấn chuyên ngành: 09 tín chỉ (Bắt buộc: 06 tín chỉ; Tự chọn: 03/06 tín chỉ)
+    Luận văn tốt nghiệp: 12 tín chỉ

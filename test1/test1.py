@@ -2,11 +2,11 @@ import requests
 import json
 
 # URL API cho phần hội thoại
-url = "http://192.168.56.1:1234/v1/chat/completions"
+url = "http://172.20.80.1:1234/v1/chat/completions"
 
 # Kiểm tra kết nối mô hình
 def check_model():
-    model_url = "http://192.168.56.1:1234/v1/models"
+    model_url = "http://172.20.80.1:1234/v1/models"
     response = requests.get(model_url)
     if response.status_code == 200:
         models = response.json()
