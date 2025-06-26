@@ -1,7 +1,7 @@
 import os
 import requests
 import json
-from langchain_community.document_loaders import DirectoryLoader, TextLoader
+from langchain_community.document_loaders import DirectoryLoader, TextLoader, PyMuPDFLoader, Docx2txtLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -41,41 +41,68 @@ class LMStudioLLM(LLM):
     def _llm_type(self) -> str:
         return "lm_studio"
 
+### ✅ Bước 2: Tải và xử lý dữ liệu từ thư mục chứa file .txt
 
-### ✅ Bước 2: Dùng HuggingFace Embedding + FAISS : Chuyển tệp dữ liệu đầu vào thành các vector
+print("📂 Đang tải dữ liệu từ thư mục ./data ...")
+all_documents = []
+
+# Load .txt
+txt_loader = DirectoryLoader(
+    './data',
+    glob="**/*.txt",
+    loader_cls=partial(TextLoader, encoding='utf-8')
+)
+all_documents.extend(txt_loader.load())
+
+# Load .pdf
+pdf_loader = DirectoryLoader(
+    './data',
+    glob="**/*.pdf",
+    loader_cls=PyMuPDFLoader  # dùng pymupdf
+)
+all_documents.extend(pdf_loader.load())
+
+# Load .docx
+
+
+docx_loader = DirectoryLoader(
+    './data',
+    glob="**/*.docx",
+    loader_cls=Docx2txtLoader
+)
+
+all_documents.extend(docx_loader.load())
+
+
+splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
+texts = splitter.split_documents(all_documents)
+
+### ✅ Bước 3: Dùng HuggingFace Embedding + FAISS : Chuyển tệp dữ liệu đầu vào thành các vector
+
+# embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+# vectorstore = FAISS.from_documents(texts, embedding_model)
+# vectorstore.save_local("faiss_index")
+
+
+#  cải tiến 25/06
+
+
+index_path = "C:/Users/FPTSHOP/PycharmProjects/Chat_lm/RAG/faiss_index"
+
+# Tạo thư mục nếu chưa có
+os.makedirs(index_path, exist_ok=True)
 
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
-index_path = "vector_index"
-rebuild = False
-
-# 2. Kiểm tra xem index đã tồn tại chưa
-if os.path.exists(index_path):
-    print("📦 Đang tải FAISS index từ ổ đĩa ...")
-    vectorstore = FAISS.load_local(index_path, embedding_model)
-
-    # 3. Load dữ liệu mới (từ thư mục ./data)
-    loader = DirectoryLoader('./data', glob="**/*.txt", loader_cls=partial(TextLoader, encoding='utf-8'))
-    documents = loader.load()
-
-    # 4. Cắt văn bản
-    splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
-    texts = splitter.split_documents(documents)
-
-    # 5. Tùy chọn: kiểm tra trùng văn bản để tránh thêm lại
-    print("🆕 Đang cập nhật FAISS với tài liệu mới ...")
-    vectorstore.add_documents(texts)  # thêm vào index hiện tại
-    vectorstore.save_local(index_path)
-
+# Kiểm tra xem index đã tồn tại hay chưa bằng cách kiểm tra file FAISS
+if os.path.exists(os.path.join(index_path, "index.faiss")) and os.path.exists(os.path.join(index_path, "index.pkl")):
+    print("📦 Đang tải FAISS vectorstore từ ổ đĩa...")
+    vectorstore = FAISS.load_local(index_path, embedding_model, allow_dangerous_deserialization=True)
 else:
-    print("📂 Đang tạo FAISS index lần đầu ...")
-    loader = DirectoryLoader('./data', glob="**/*.txt", loader_cls=partial(TextLoader, encoding='utf-8'))
-    documents = loader.load()
-    splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=50)
-    texts = splitter.split_documents(documents)
-
+    print("📦 Đang tạo FAISS vectorstore và lưu vào ổ đĩa...")
     vectorstore = FAISS.from_documents(texts, embedding_model)
     vectorstore.save_local(index_path)
+
 
 ### ✅ Bước 4: Xây dựng conversational RAG chain
 
