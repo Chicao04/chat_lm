@@ -35,7 +35,7 @@ def generate_qa_pairs(text: str, max_q: int = 100) -> list[tuple[str, str]]:
     """Tự hỏi Gemini số cặp, rồi sinh đúng số đó (≤ max_q)."""
     n_q = _ask_num_questions(text, max_q)
     prompt = f"""
-Sinh {n_q} cặp Hỏi‑Đáp ngắn gọn, đúng trọng tâm (định dạng Q:/A:), tiếng việt .  
+Sinh {n_q} cặp Hỏi‑Đáp, đúng trọng tâm (định dạng Q:/A:), đầy đủ , tiếng việt .  
 ---
 {text[:8000]}
 """
